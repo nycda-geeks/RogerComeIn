@@ -1137,9 +1137,9 @@ img {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
-  -webkit-transition: all .2s ease-in-out;
-       -o-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
+  -webkit-transition: all .6s ease-in-out;
+       -o-transition: all .6s ease-in-out;
+          transition: all .6s ease-in-out;
 }
 .img-circle {
   border-radius: 50%;
@@ -5013,9 +5013,9 @@ a.badge:focus {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
-  -webkit-transition: border .2s ease-in-out;
-       -o-transition: border .2s ease-in-out;
-          transition: border .2s ease-in-out;
+  -webkit-transition: border .6s ease-in-out;
+       -o-transition: border .6s ease-in-out;
+          transition: border .6s ease-in-out;
 }
 .thumbnail > img,
 .thumbnail a > img {
