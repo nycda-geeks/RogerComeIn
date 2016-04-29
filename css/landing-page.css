@@ -405,6 +405,10 @@ ul li{
      }
      
   ul.dropdown {padding-left: 0px;}
+
+  form > p {
+    padding: 5px;
+  }
   
   
   
