@@ -37,6 +37,7 @@
      color: #f8f8f8;
      background: url(../img/intro-bg.jpg) no-repeat center center;
      background-size: cover;
+     height: 500px;
  }
  
  .intro-message {
@@ -49,6 +50,7 @@
      margin: 0;
      text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
      font-size: 5em;
+     
  }
  
  .intro-divider {
