@@ -26,11 +26,11 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
         <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
             <div class="container topnav">
@@ -51,7 +51,7 @@
                             <a>Werk &#9662;</a>
                             <ul class="dropdown">
                                 <li><a href="werkzoekende.html">Werkzoekende</a></li>
-                                 <li><a href="werkgever.html">Werkgever</a></li>
+                                <li><a href="werkgever.html">Werkgever</a></li>
                             </ul>
                         </li>
                         <li>
@@ -72,20 +72,55 @@
         </nav>
 
 
-    <!-- Header -->
-    <a name="about"></a>
-    <div class="intro-header">
-<div class="container">
-  <br>
-  
-    
-  </div>
-</div>
+        <!-- Header -->
+        <a name="about"></a>
+        <div class="intro-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="input-group" id="adv-search">
+                            <input type="text" class="form-control" placeholder="Zoek voor vacatures" />
+                            <div class="input-group-btn">
+                                <div class="btn-group" role="group">
+                                    <div class="dropdown dropdown-lg">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+                                        <div class="dropdown-menu dropdown-menu-right" role="menu">
+                                            <form class="form-horizontal" role="form">
+                                                <div class="form-group">
+                                                    <label for="filter">Filter by</label>
+                                                    <select class="form-control">
+                                                        <option value="0" selected>Alle Vacatures</option>
+                                                        <option value="1">Dichtbij</option>
+                                                        <option value="2">HBO></option>
+                                                        <option value="3">MBO></option>
+                                                        <option value="4">VMBO></option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="contain">Author</label>
+                                                    <input class="form-control" type="text" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="contain">Contains the words</label>
+                                                    <input class="form-control" type="text" />
+                                                </div>
+                                                <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- /.container -->
 
     </div>
 
-	
+
     <div class="content-section-a">
 
         <div class="container">
@@ -96,7 +131,7 @@
                     <h2 class="section-heading">Vacatures</h2>
                     <a target="_blank" href="#">ProductieMedewerker</a> <br>
                     <a target="_blank" href="#">tester</a>
-                   </div>
+                </div>
 
             </div>
 
@@ -107,7 +142,7 @@
 
 
 
-    
+
 
     <!-- Footer -->
     <footer>
